@@ -95,21 +95,32 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 120px;
+    margin: 80px 200px;
 }
 
 .call-to-action {
     background-color: #3882f6;
     color: white;
-    padding: 60px 240px;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    border-radius: 12px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 120px;
+    flex: 1;
 }
 
 .information-header-text {
     font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.call-to-action-button {
+    margin-left: auto;
+}
+
+.section-four-button {
+    border-color: white;
+
 }
 
 button {
@@ -117,11 +128,6 @@ button {
     color: white;
     padding: 5px 20px;
     border-radius: 8px;
-}
-
-.section-four-button {
-    border-color: white;
-
 }
 
 footer {
