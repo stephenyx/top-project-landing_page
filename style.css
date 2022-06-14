@@ -1,5 +1,5 @@
 html {
-    magin: 0 auto;
+    margin: 0 auto;
 }
 
 body {
@@ -37,14 +37,30 @@ header a {
     text-decoration: none;
 }
 
-.section-one p {
+.section-one {
+    /* display: flex; */
+}
+
+.media {
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+}
+
+.media .hero-content {
+    /* flex: 1; */
+    padding: 10px;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.hero-image {
+    width: 50px;
+    height: auto;
+    /* margin-left: auto; */
 }
 
 h2 {
@@ -63,4 +79,65 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 200px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+}
+
+.section-three .quote{
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 240px 0px;
+}
+
+.section-three p {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 240px 120px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: white;
+    padding: 60px 240px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.information-header-text {
+    font-size: 36px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.section-four-button {
+    border-color: white;
+
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
