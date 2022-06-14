@@ -5,13 +5,14 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: space-around; */
     margin: 0;
     width: 100%;
 }
 
-header, footer {
+header, .section-one, footer {
     background-color: #1f2937;
+    color: white;
 }
 
 .header-logo-text {
@@ -21,10 +22,45 @@ header, footer {
 
 header {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header ul {
     text-decoration: none;
     display: flex;
     gap: 18px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-one p {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    text-align: center;
+}
+
+.section-two-block {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
